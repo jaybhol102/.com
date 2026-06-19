@@ -1,0 +1,367 @@
+export const personalInfo = {
+  name: "Jaynarayan Bhol",
+  firstName: "Jaynarayan",
+  lastName: "Bhol",
+  email: "jaybhol102@gmail.com",
+  phone: "+91 7789910181",
+  linkedin: "https://www.linkedin.com/in/jaybl",
+  github: "https://github.com/jaynarayan-bhol",
+  title: "DevOps Engineer",
+  subtitle: "AWS | Kubernetes | Cloud Automation",
+  yearsOfExperience: 4,
+  location: "India",
+  currentCompany: "Leewayhertz Pvt. Ltd.",
+  profileImage: "/profile.jpg",
+  resumeUrl: "/resume.pdf",
+  bio: "DevOps Engineer with 4+ years of experience designing and implementing enterprise-grade CI/CD pipelines, cloud infrastructure automation, and container orchestration systems. Specialized in AWS, Kubernetes, and Terraform with a proven track record of delivering reliable, scalable infrastructure for financial, advertising, and health-tech industries.",
+};
+
+export const typingRoles = [
+  "DevOps Engineer",
+  "AWS Engineer",
+  "Kubernetes Administrator",
+  "Cloud Automation Specialist",
+  "Infrastructure Engineer",
+  "CI/CD Pipeline Expert",
+];
+
+export const achievements = [
+  { label: "Years of Experience", value: 4, suffix: "+", icon: "calendar" },
+  { label: "Cloud Projects", value: 12, suffix: "+", icon: "cloud" },
+  { label: "CI/CD Pipelines Built", value: 25, suffix: "+", icon: "git-branch" },
+  { label: "Kubernetes Deployments", value: 50, suffix: "+", icon: "box" },
+  { label: "AWS Services Used", value: 20, suffix: "+", icon: "server" },
+];
+
+export const skills = [
+  {
+    category: "Cloud Platforms",
+    color: "from-orange-500 to-yellow-500",
+    bgColor: "bg-orange-500/10",
+    borderColor: "border-orange-500/20",
+    items: [
+      { name: "AWS", level: 90, icon: "cloud" },
+      { name: "Azure", level: 70, icon: "cloud" },
+      { name: "EC2 / ECS / EKS", level: 88, icon: "server" },
+      { name: "Lambda", level: 82, icon: "zap" },
+      { name: "S3 / CloudWatch", level: 90, icon: "database" },
+      { name: "VPC / IAM / Route53", level: 88, icon: "shield" },
+    ],
+  },
+  {
+    category: "Containers & Orchestration",
+    color: "from-blue-500 to-cyan-500",
+    bgColor: "bg-blue-500/10",
+    borderColor: "border-blue-500/20",
+    items: [
+      { name: "Kubernetes", level: 85, icon: "layers" },
+      { name: "Docker", level: 92, icon: "box" },
+      { name: "Docker Compose", level: 88, icon: "box" },
+      { name: "Helm", level: 75, icon: "anchor" },
+      { name: "EKS", level: 82, icon: "layers" },
+      { name: "ECR", level: 85, icon: "package" },
+    ],
+  },
+  {
+    category: "CI/CD & Automation",
+    color: "from-green-500 to-emerald-500",
+    bgColor: "bg-green-500/10",
+    borderColor: "border-green-500/20",
+    items: [
+      { name: "Jenkins", level: 90, icon: "settings" },
+      { name: "ArgoCD", level: 80, icon: "git-merge" },
+      { name: "GitLab CI", level: 82, icon: "gitlab" },
+      { name: "GitHub Actions", level: 75, icon: "github" },
+      { name: "Terraform", level: 85, icon: "terminal" },
+      { name: "Ansible", level: 80, icon: "cpu" },
+    ],
+  },
+  {
+    category: "Monitoring & Observability",
+    color: "from-purple-500 to-pink-500",
+    bgColor: "bg-purple-500/10",
+    borderColor: "border-purple-500/20",
+    items: [
+      { name: "Prometheus", level: 85, icon: "activity" },
+      { name: "Grafana", level: 88, icon: "bar-chart" },
+      { name: "Datadog", level: 78, icon: "eye" },
+      { name: "CloudWatch", level: 85, icon: "bell" },
+      { name: "Sentry", level: 72, icon: "alert-circle" },
+      { name: "Node Exporter", level: 80, icon: "monitor" },
+    ],
+  },
+  {
+    category: "Languages & Tools",
+    color: "from-red-500 to-orange-500",
+    bgColor: "bg-red-500/10",
+    borderColor: "border-red-500/20",
+    items: [
+      { name: "Python", level: 78, icon: "code" },
+      { name: "Shell / Bash", level: 85, icon: "terminal" },
+      { name: "SQL", level: 72, icon: "database" },
+      { name: "Maven", level: 80, icon: "package" },
+      { name: "Nginx / Apache", level: 78, icon: "globe" },
+      { name: "Git / GitHub / GitLab", level: 90, icon: "git-branch" },
+    ],
+  },
+];
+
+export const experience = [
+  {
+    id: 1,
+    company: "Leewayhertz Pvt. Ltd.",
+    role: "DevOps Engineer",
+    type: "Full-time",
+    location: "India (Remote)",
+    period: "Sept 2024 – Present",
+    startDate: "2024-09",
+    endDate: null,
+    current: true,
+    color: "from-blue-600 to-purple-600",
+    logo: "LW",
+    description:
+      "Leading DevOps initiatives for enterprise AI and blockchain product development, managing cloud infrastructure and deployment automation.",
+    responsibilities: [
+      "Architecting and managing AWS cloud infrastructure including EKS, EC2, VPC, and Lambda functions",
+      "Building and maintaining CI/CD pipelines using Jenkins and ArgoCD for multi-service deployments",
+      "Implementing Infrastructure as Code using Terraform for consistent and reproducible environments",
+      "Managing containerized workloads on Kubernetes with monitoring via Prometheus and Grafana",
+      "Establishing DevOps best practices including GitOps workflows and automated testing integration",
+    ],
+    technologies: ["AWS", "Kubernetes", "Docker", "Terraform", "Jenkins", "ArgoCD", "Prometheus", "Grafana"],
+  },
+  {
+    id: 2,
+    company: "CloudifyOps Pvt. Ltd.",
+    role: "Cloud Engineer",
+    type: "Full-time",
+    location: "Bengaluru, India",
+    period: "March 2024 – Aug 2024",
+    startDate: "2024-03",
+    endDate: "2024-08",
+    current: false,
+    color: "from-cyan-600 to-blue-600",
+    logo: "CO",
+    description:
+      "Delivered cloud solutions for advertising and fintech clients leveraging AWS and Azure platforms with focus on automation and monitoring.",
+    responsibilities: [
+      "Developed and optimized Jenkins pipelines to automate end-to-end testing of live advertising tags",
+      "Implemented Azure Cloud integration using Azure Function Apps and Web Apps for serverless architecture",
+      "Built comprehensive market monitoring solutions across 5 distinct markets tracking URL health and error status",
+      "Developed automated alert systems for error status codes improving response times significantly",
+      "Conducted cross-market performance analysis identifying trends and anomalies proactively",
+    ],
+    technologies: ["Jenkins", "Azure Functions", "Azure Web Apps", "Docker", "Python", "Monitoring"],
+  },
+  {
+    id: 3,
+    company: "Mindtrail Technologies Pvt. Ltd.",
+    role: "AWS DevOps Engineer",
+    type: "Full-time",
+    location: "India",
+    period: "Nov 2021 – Feb 2024",
+    startDate: "2021-11",
+    endDate: "2024-02",
+    current: false,
+    color: "from-purple-600 to-pink-600",
+    logo: "MT",
+    description:
+      "Built and maintained AWS infrastructure, CI/CD pipelines, and monitoring systems for financial and health-tech organizations.",
+    responsibilities: [
+      "Implemented complete AWS infrastructure: EC2, CloudWatch, Auto Scaling, EBS, S3, IAM, RDS (MySQL)",
+      "Designed and delivered end-to-end CI/CD pipelines for React, Java, Node, and Python applications using Jenkins",
+      "Managed Docker containerization: Dockerfiles, images, containers, Docker Compose, and Docker Swarm",
+      "Automated AWS services and cloud deployments using Terraform and Ansible playbooks",
+      "Set up Grafana/Prometheus monitoring dashboards with 24×7 support coverage",
+      "Created Kubernetes deployment scripts and managed containerized applications on EKS",
+      "Migrated databases to AWS RDS (Oracle → Postgres, Oracle → MySQL migrations)",
+    ],
+    technologies: ["AWS", "Jenkins", "Docker", "Kubernetes", "Terraform", "Ansible", "Grafana", "Prometheus", "Python"],
+  },
+];
+
+export const projects = [
+  {
+    id: 1,
+    name: "Financial Cloud Transformation",
+    company: "Mindtrail Technologies",
+    period: "2022 – 2024",
+    category: "Cloud Infrastructure",
+    description:
+      "Complete AWS infrastructure setup and automation for a financial organization, including data platforms, CI/CD pipelines, and comprehensive monitoring.",
+    longDescription:
+      "Led the cloud transformation initiative for a financial organization, building a robust AWS infrastructure from ground up. Implemented automated CI/CD pipelines, containerized application deployments, and 24×7 monitoring systems.",
+    technologies: ["AWS EC2", "VPC", "S3", "IAM", "RDS", "Jenkins", "Docker", "Kubernetes", "Prometheus", "Grafana", "Maven"],
+    highlights: [
+      "Built end-to-end CI/CD pipeline for React and Node applications",
+      "Set up Grafana and Prometheus monitoring with custom dashboards",
+      "Managed 24×7 support with automated alerting",
+      "GitLab upgraded from v14.8 to v16.3 with zero downtime",
+      "Automated routine tasks with Python scripts",
+    ],
+    impact: "Reduced deployment time by 60% and improved system reliability to 99.9% uptime",
+    color: "from-blue-600/20 to-cyan-600/20",
+    borderColor: "border-blue-500/30",
+    badgeColor: "bg-blue-500/20 text-blue-300",
+    icon: "building-2",
+  },
+  {
+    id: 2,
+    name: "Jivox Advertising Platform",
+    company: "CloudifyOps",
+    period: "2024",
+    category: "CI/CD Automation",
+    description:
+      "Automated testing and delivery pipeline for a global digital advertising platform ensuring 100% accuracy of live ad tags across channels.",
+    longDescription:
+      "Developed and maintained Jenkins pipelines for an advertising platform focused on dynamic ad content delivery. Ensured continuous integration and automated testing of live advertising tags.",
+    technologies: ["Jenkins", "Docker", "Python", "GitLab", "Kubernetes", "Monitoring"],
+    highlights: [
+      "Automated testing of all live ad tags via Jenkins pipelines",
+      "Implemented rigorous quality assurance procedures pre-deployment",
+      "Diagnosed and resolved platform stability issues",
+      "Monitored and analyzed performance metrics proactively",
+    ],
+    impact: "Reduced manual testing effort by 80% and improved ad delivery reliability",
+    color: "from-purple-600/20 to-pink-600/20",
+    borderColor: "border-purple-500/30",
+    badgeColor: "bg-purple-500/20 text-purple-300",
+    icon: "megaphone",
+  },
+  {
+    id: 3,
+    name: "Ikano Market Monitoring",
+    company: "CloudifyOps",
+    period: "2024",
+    category: "Azure Cloud",
+    description:
+      "Enterprise-scale monitoring solution across 5 global markets using Azure serverless architecture for real-time URL health tracking and automated alerting.",
+    longDescription:
+      "Designed and deployed a comprehensive market monitoring solution on Azure Cloud for Ikano, monitoring critical business URLs across five distinct markets with automated error detection and alerting.",
+    technologies: ["Azure Functions", "Azure Web Apps", "Python", "Monitoring", "REST APIs", "Azure DevOps"],
+    highlights: [
+      "Deployed across 5 distinct global markets",
+      "Implemented real-time URL health monitoring and error detection",
+      "Built automated alert system for error status codes",
+      "Optimized Azure Function Apps reducing latency significantly",
+      "Conducted cross-market analysis for trend identification",
+    ],
+    impact: "Achieved 40% faster incident response time across all 5 markets",
+    color: "from-cyan-600/20 to-teal-600/20",
+    borderColor: "border-cyan-500/30",
+    badgeColor: "bg-cyan-500/20 text-cyan-300",
+    icon: "globe",
+  },
+  {
+    id: 4,
+    name: "Cysterhood Health Platform",
+    company: "Mindtrail Technologies",
+    period: "2022 – 2023",
+    category: "Full-Stack DevOps",
+    description:
+      "Complete DevOps infrastructure for a health and fitness mobile/web application, including AWS services, CI/CD, and containerized deployments.",
+    longDescription:
+      "Built the complete AWS infrastructure and DevOps pipeline for Cysterhood, a health and fitness platform. Managed multi-stack deployments (Java, React, Node, Python) with ECS, ECR, Lambda, and S3.",
+    technologies: ["AWS ECS", "ECR", "Lambda", "S3", "SNS", "Jenkins", "Docker", "Terraform", "MongoDB", "MySQL"],
+    highlights: [
+      "End-to-end CI/CD for Java, React, Node, Python applications",
+      "Automated AWS services with Terraform IaC",
+      "Managed MongoDB and MySQL database installations",
+      "Docker Compose-based multi-service deployments",
+      "Serverless functions via AWS Lambda",
+    ],
+    impact: "Enabled zero-downtime deployments and reduced infrastructure costs by 30%",
+    color: "from-green-600/20 to-emerald-600/20",
+    borderColor: "border-green-500/30",
+    badgeColor: "bg-green-500/20 text-green-300",
+    icon: "heart",
+  },
+];
+
+export const certifications = [
+  {
+    id: 1,
+    name: "AWS Certified Cloud Practitioner",
+    issuer: "Amazon Web Services",
+    issuerShort: "AWS",
+    issued: "April 2024",
+    expires: "April 2027",
+    credentialId: "AWS-CCP-2024",
+    color: "from-orange-500 to-yellow-500",
+    bgColor: "bg-orange-500/10",
+    borderColor: "border-orange-500/30",
+    logo: "☁️",
+    badge: "CCP",
+    skills: ["Cloud Concepts", "AWS Services", "Security", "Pricing & Support"],
+  },
+];
+
+export const education = [
+  {
+    degree: "Bachelor of Science",
+    institution: "Utkal University",
+    year: "2021",
+    location: "Odisha, India",
+    color: "from-blue-600 to-purple-600",
+  },
+];
+
+export const architectureFlow = [
+  {
+    id: "source",
+    label: "Source Code",
+    sublabel: "GitLab / GitHub",
+    icon: "git-branch",
+    color: "from-gray-600 to-gray-700",
+    borderColor: "border-gray-500/50",
+  },
+  {
+    id: "ci",
+    label: "CI Pipeline",
+    sublabel: "Jenkins / ArgoCD",
+    icon: "settings",
+    color: "from-blue-600 to-blue-700",
+    borderColor: "border-blue-500/50",
+  },
+  {
+    id: "build",
+    label: "Build & Test",
+    sublabel: "Maven / Docker",
+    icon: "package",
+    color: "from-cyan-600 to-cyan-700",
+    borderColor: "border-cyan-500/50",
+  },
+  {
+    id: "registry",
+    label: "Container Registry",
+    sublabel: "AWS ECR",
+    icon: "archive",
+    color: "from-orange-600 to-orange-700",
+    borderColor: "border-orange-500/50",
+  },
+  {
+    id: "deploy",
+    label: "Orchestration",
+    sublabel: "Kubernetes / EKS",
+    icon: "layers",
+    color: "from-purple-600 to-purple-700",
+    borderColor: "border-purple-500/50",
+  },
+  {
+    id: "monitor",
+    label: "Monitoring",
+    sublabel: "Prometheus / Grafana",
+    icon: "activity",
+    color: "from-green-600 to-green-700",
+    borderColor: "border-green-500/50",
+  },
+];
+
+export const navLinks = [
+  { href: "#about", label: "About" },
+  { href: "#skills", label: "Skills" },
+  { href: "#experience", label: "Experience" },
+  { href: "#projects", label: "Projects" },
+  { href: "#architecture", label: "Architecture" },
+  { href: "#contact", label: "Contact" },
+];
